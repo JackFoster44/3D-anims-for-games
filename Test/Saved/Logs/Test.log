@@ -1676,3 +1676,605 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.05.27-12.00.45:215][333]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
 [2026.05.27-12.00.45:215][333]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
 [2026.05.27-12.00.45:215][333]LogShaderCompilers: Display: ================================================
+[2026.05.27-12.03.30:610][829]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 350.106415
+[2026.05.27-12.03.31:610][832]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.27-12.03.31:611][832]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 350.773102, Update Interval: 313.092438
+[2026.05.27-12.08.48:323][782]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 667.817871
+[2026.05.27-12.08.49:322][785]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.27-12.08.49:323][785]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 668.484497, Update Interval: 315.945312
+[2026.05.27-12.14.10:379][749]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 989.868896
+[2026.05.27-12.14.11:379][752]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.27-12.14.11:379][752]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 990.535583, Update Interval: 310.763275
+[2026.05.27-12.15.59:330][ 74]LogPSOHitching: Encountered 150 PSO creation hitches so far (48 graphics, 102 compute). 0 of them were precached.
+[2026.05.27-12.17.38:273][502]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.27-12.17.38:278][502]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.05.27-12.17.38:278][502]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2026.05.27-12.17.38:278][502]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 663 us
+[2026.05.27-12.17.38:279][502]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.27-12.17.38:290][502]LogOnline: OSS: Created online subsystem instance for: NULL
+[2026.05.27-12.17.38:290][502]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2026.05.27-12.17.38:290][502]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.05.27-12.17.38:294][502]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.05.27-12.17.38:295][502]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 768 us
+[2026.05.27-12.17.38:295][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005051s)
+[2026.05.27-12.17.38:295][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.005102s)
+[2026.05.27-12.17.38:341][502]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.05.27-12.17.38:343][502]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.05.27-12.17.38:344][502]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.05.27-12.17.38:344][502]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.05.27-12.17.38:344][502]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.05.27-12.17.38:344][502]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.05.27-12.17.38:345][502]LogWorldPartition: Display: WorldPartition initialize took 1.047 ms (total: 123.469 ms)
+[2026.05.27-12.17.38:345][502]LogPlayLevel: PIE: World Init took: (0.002638s)
+[2026.05.27-12.17.38:345][502]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.05.27-12.17.38:345][502]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.27-12.17.38:345][502]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.27-12.17.38:345][502]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.27-12.17.38:345][502]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.27-12.17.38:345][502]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.27-12.17.38:345][502]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.27-12.17.38:345][502]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.27-12.17.38:346][502]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.27-12.17.38:346][502]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.27-12.17.38:346][502]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.27-12.17.38:346][502]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.27-12.17.38:347][502]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.27-12.17.38:379][502]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.05.27-12.17.38:380][502]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.27-12.17.38:380][502]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.27-12.17.38:380][502]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.27-12.17.38:380][502]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.05.27-12.17.38:380][502]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.05.27-12.17.38:382][502]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.05.27-12.17.38:382][502]LogInit: FAudioDevice initialized with ID 2.
+[2026.05.27-12.17.38:382][502]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.05.27-12.17.38:382][502]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lvl_ThirdPerson'.
+[2026.05.27-12.17.38:382][502]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.05.27-12.17.38:385][502]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.05.27-12.17.38:387][502]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2026.05.27-13.17.38
+[2026.05.27-12.17.38:387][502]LogWorld: Bringing up level for play took: 0.001610
+[2026.05.27-12.17.38:389][502]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2026.05.27-12.17.38:394][502]PIE: Server logged in
+[2026.05.27-12.17.38:396][502]PIE: Play in editor total start time 0.119 seconds.
+[2026.05.27-12.17.38:443][503]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.27-12.17.49:434][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.27-12.17.49:434][806]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.05.27-12.17.49:434][806]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.05.27-12.17.49:435][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.27-12.17.49:435][806]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.05.27-12.17.49:437][806]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.27-12.17.49:438][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.27-12.17.49:448][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.27-12.17.49:448][806]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.05.27-12.17.49:448][806]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2026.05.27-12.17.49:450][806]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2026.05.27-12.17.49:456][806]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.05.27-12.17.49:505][808]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2026.05.27-12.17.51:098][992]LogSlate: Took 0.006866 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.05.27-12.17.51:119][993]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2026.05.27-12.17.51:384][995]LogPSOHitching: Encountered 200 PSO creation hitches so far (61 graphics, 139 compute). 0 of them were precached.
+[2026.05.27-12.17.51:878][ 20]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.05.27-12.17.51:883][ 20]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_0
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.51:883][ 20]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_0
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.51:883][ 20]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_0
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.51:890][ 21]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.05.27-12.17.51:957][ 22]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.05.27-12.17.51:974][ 23]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2026.05.27-12.17.52:013][ 27]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_1
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:013][ 27]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_1
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:013][ 27]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_1
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:041][ 28]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_2
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:041][ 28]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_2
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:041][ 28]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_2
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:048][ 29]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_3
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:048][ 29]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_3
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:048][ 29]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_3
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:055][ 30]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_4
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:055][ 30]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_4
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:055][ 30]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_4
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:063][ 31]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_5
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:063][ 31]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_5
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:063][ 31]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_5
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:073][ 32]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_6
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:073][ 32]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_6
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:073][ 32]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_6
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:082][ 33]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_7
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:082][ 33]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_7
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:082][ 33]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_7
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:092][ 34]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_8
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:092][ 34]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_8
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:092][ 34]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_8
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:101][ 35]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_9
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:101][ 35]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_9
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:101][ 35]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_9
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:111][ 36]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_10
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:111][ 36]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_10
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:111][ 36]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_10
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:699][102]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_11
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:699][102]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_11
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:699][102]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_11
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:708][103]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_12
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:708][103]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_12
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:708][103]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_12
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:717][104]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_13
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:717][104]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_13
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:717][104]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_13
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:727][105]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_14
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:727][105]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_14
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:727][105]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_14
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:735][106]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_15
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:735][106]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_15
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:735][106]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_15
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:745][107]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_16
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:745][107]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_16
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:745][107]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_16
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:754][108]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_17
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:754][108]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_17
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:754][108]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_17
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:763][109]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_18
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:763][109]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_18
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:763][109]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_18
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:804][110]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_19
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:804][110]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_19
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:804][110]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_19
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:845][111]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_20
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:845][111]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_20
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:845][111]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_20
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:877][112]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_21
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:877][112]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_21
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:877][112]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_21
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:910][113]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_22
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:910][113]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_22
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:910][113]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_22
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:918][114]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_23
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:918][114]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_23
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:918][114]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_23
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.52:927][115]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_24
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.52:927][115]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_24
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.52:927][115]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_24
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.53:043][126]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_25
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.53:044][126]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_25
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.53:044][126]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_25
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.53:078][127]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_26
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.53:078][127]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_26
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.53:078][127]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_26
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.53:094][128]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_27
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.53:094][128]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_27
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.53:094][128]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_27
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.53:128][129]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint
+[2026.05.27-12.17.53:128][129]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.05.27-12.17.53:139][129]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2026.05.27-12.17.53:143][129]LogStreaming: Display: FlushAsyncLoading(398): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.27-12.17.53:164][129]LogStaticMesh: Display: Building static mesh Sphere_inversenormals (Required Memory Estimate: 1.522745 MB)...
+[2026.05.27-12.17.53:170][129]LogStaticMesh: Built static mesh [0.01s] /Engine/EditorMeshes/AssetViewer/Sphere_inversenormals.Sphere_inversenormals
+[2026.05.27-12.17.53:187][129]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_5.6\Engine\Content\EditorMaterials\GridMaterial.uasset: Error opening file.
+[2026.05.27-12.17.53:188][129]LogStaticMesh: Display: Building static mesh Floor_Mesh (Required Memory Estimate: 0.022237 MB)...
+[2026.05.27-12.17.53:189][129]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/AssetViewer/Floor_Mesh.Floor_Mesh
+[2026.05.27-12.17.53:198][129]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.27-12.17.53:199][129]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Char_Base_Skeleton_AnimBlueprint_C_0
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.53:199][129]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Char_Base_Skeleton_AnimBlueprint_C_0
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.53:199][129]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Char_Base_Skeleton_AnimBlueprint_C_0
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.55:028][129]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2026.05.27-12.17.55:280][129]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Char_Base_Skeleton_AnimBlueprint_C_0
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.55:280][129]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Char_Base_Skeleton_AnimBlueprint_C_0
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.55:280][129]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Char_Base_Skeleton_AnimBlueprint_C_0
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.55:310][129]LogSlate: Took 0.005807 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2026.05.27-12.17.55:427][129]LogPSOHitching: Encountered 250 PSO creation hitches so far (88 graphics, 162 compute). 0 of them were precached.
+[2026.05.27-12.17.55:457][130]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Char_Base_Skeleton_AnimBlueprint_C_0
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.55:457][130]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Char_Base_Skeleton_AnimBlueprint_C_0
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.55:457][130]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Char_Base_Skeleton_AnimBlueprint_C_0
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.55:476][131]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Char_Base_Skeleton_AnimBlueprint_C_0
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.55:476][131]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Char_Base_Skeleton_AnimBlueprint_C_0
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.55:476][131]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Char_Base_Skeleton_AnimBlueprint_C_0
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.55:543][132]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Char_Base_Skeleton_AnimBlueprint_C_0
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.56:151][169]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_28
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.17.56:151][169]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_28
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.17.56:151][169]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_28
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.17.58:422][390]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2026.05.27-12.18.13:434][897]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_29
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.18.13:434][897]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_29
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.18.13:434][897]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_29
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.18.13:434][897]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_29
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.18.13:434][897]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_29
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.18.13:434][897]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_29
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.18.13:447][897]LogSlate: Took 0.006899 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2026.05.27-12.18.13:506][902]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_30
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.18.13:506][902]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_30
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.18.13:506][902]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_30
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.18.13:506][902]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_30
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.18.13:506][902]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_30
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.18.13:506][902]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_30
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.18.15:182][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.05.27-12.18.15:196][ 44]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_31
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.18.15:196][ 44]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_31
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.18.15:196][ 44]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_31
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.18.15:285][ 46]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_32
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.18.15:285][ 46]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_32
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.18.15:285][ 46]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_32
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.18.15:983][114]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.27-12.18.16:035][114]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Character_Base/Char_Base_Skeleton_AnimBlueprint] ([2] browsable assets)...
+[2026.05.27-12.18.16:035][114]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_33
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.18.16:035][114]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_33
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.18.16:035][114]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_33
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.18.16:043][114]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint]
+[2026.05.27-12.18.16:043][114]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character_Base/Char_Base_Skeleton_AnimBlueprint]
+[2026.05.27-12.18.16:065][114]LogSavePackage: Moving output files for package: /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint
+[2026.05.27-12.18.16:066][114]LogSavePackage: Moving '../../../../../../Users/s4309001/Documents/3D-anims-for-games/Test/Saved/Char_Base_Skeleton_AnimBlueprint3DCC5B324BC57BF88EC06788757F50D0.tmp' to '../../../../../../Users/s4309001/Documents/3D-anims-for-games/Test/Content/Character_Base/Char_Base_Skeleton_AnimBlueprint.uasset'
+[2026.05.27-12.18.16:073][114]LogFileHelpers: InternalPromptForCheckoutAndSave took 90.660 ms
+[2026.05.27-12.18.16:114][114]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.27-12.18.16:115][114]LogContentValidation: Enabled validators:
+[2026.05.27-12.18.16:115][114]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.27-12.18.16:115][114]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.27-12.18.16:115][114]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.27-12.18.16:115][114]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.27-12.18.16:115][114]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.27-12.18.16:115][114]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.27-12.18.16:115][114]AssetCheck: /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint Validating asset
+[2026.05.27-12.18.16:130][114]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/s4309001/Documents/3D-anims-for-games/Test/Saved/SourceControl/UncontrolledChangelists.json
+[2026.05.27-12.18.16:131][115]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_34
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:00C9
+[2026.05.27-12.18.16:131][115]LogScript: Warning: Accessed None trying to read (real) property Character Movement in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_34
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:0111
+[2026.05.27-12.18.16:131][115]LogScript: Warning: Accessed None trying to read (real) property Character Ref in Char_Base_Skeleton_AnimBlueprint_C
+	Char_Base_Skeleton_AnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Char_Base_Skeleton_AnimBlueprint_C_34
+	Function /Game/Character_Base/Char_Base_Skeleton_AnimBlueprint.Char_Base_Skeleton_AnimBlueprint_C:ExecuteUbergraph_Char_Base_Skeleton_AnimBlueprint:001F
+[2026.05.27-12.18.18:121][311]LogSlate: Window 'Char_Base_Skeleton_AnimBlueprint' being destroyed
+[2026.05.27-12.18.18:139][311]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2026.05.27-12.18.18:140][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.27-12.18.18:150][311]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2026.05.27-12.18.18:150][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.27-12.18.18:194][311]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2026.05.27-12.18.18:194][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.27-12.18.18:217][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2026.05.27-12.18.19:444][455]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.27-12.18.19:449][455]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.05.27-12.18.19:449][455]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2026.05.27-12.18.19:449][455]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 458 us (total: 1.122 ms)
+[2026.05.27-12.18.19:449][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.27-12.18.19:484][455]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.05.27-12.18.19:488][455]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.05.27-12.18.19:488][455]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 740 us (total: 1.508 ms)
+[2026.05.27-12.18.19:488][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004631s)
+[2026.05.27-12.18.19:488][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.004673s)
+[2026.05.27-12.18.19:503][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2026.05.27-12.18.19:504][455]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.05.27-12.18.19:505][455]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.05.27-12.18.19:505][455]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.05.27-12.18.19:505][455]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.05.27-12.18.19:505][455]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.05.27-12.18.19:506][455]LogWorldPartition: Display: WorldPartition initialize took 1.149 ms (total: 124.618 ms)
+[2026.05.27-12.18.19:506][455]LogPlayLevel: PIE: World Init took: (0.002530s)
+[2026.05.27-12.18.19:507][455]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2026.05.27-12.18.19:507][455]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.27-12.18.19:507][455]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.27-12.18.19:507][455]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.27-12.18.19:507][455]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.27-12.18.19:507][455]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.27-12.18.19:507][455]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.27-12.18.19:507][455]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.27-12.18.19:507][455]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.27-12.18.19:507][455]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.27-12.18.19:507][455]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.27-12.18.19:507][455]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.27-12.18.19:509][455]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.27-12.18.19:535][455]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.05.27-12.18.19:535][455]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.27-12.18.19:535][455]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.27-12.18.19:535][455]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.27-12.18.19:535][455]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2026.05.27-12.18.19:535][455]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2026.05.27-12.18.19:537][455]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2026.05.27-12.18.19:537][455]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2026.05.27-12.18.19:537][455]LogInit: FAudioDevice initialized with ID 3.
+[2026.05.27-12.18.19:537][455]LogAudio: Display: Audio Device (ID: 3) registered with world 'Lvl_ThirdPerson'.
+[2026.05.27-12.18.19:537][455]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2026.05.27-12.18.19:540][455]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.05.27-12.18.19:542][455]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2026.05.27-13.18.19
+[2026.05.27-12.18.19:542][455]LogWorld: Bringing up level for play took: 0.001579
+[2026.05.27-12.18.19:543][455]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2026.05.27-12.18.19:545][455]PIE: Server logged in
+[2026.05.27-12.18.19:547][455]PIE: Play in editor total start time 0.098 seconds.
+[2026.05.27-12.18.19:581][456]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.27-12.18.31:934][931]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.27-12.18.31:934][931]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.05.27-12.18.31:935][931]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.05.27-12.18.31:935][931]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.27-12.18.31:935][931]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.05.27-12.18.31:937][931]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.27-12.18.31:938][931]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.27-12.18.31:952][931]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.27-12.18.31:952][931]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2026.05.27-12.18.31:952][931]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2026.05.27-12.18.31:954][931]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2026.05.27-12.18.31:959][931]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.05.27-12.18.32:011][933]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2026.05.27-12.18.34:057][162]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: ================================================
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Total job queries 18,337, among them cache hits 4,910 (26.78%), DDC hits 12,338 (67.28%), Duplicates 499 (2.72%)
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Tracking 12,928 distinct input hashes that result in 11,842 distinct outputs (91.60%)
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: RAM used: 158.23 MiB of 3.20 GiB budget. Usage: 4.83%
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Shaders Compiled: 590
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Jobs assigned 590, completed 590 (100%)
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Average time worker was idle: 74.98 s
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Time job spent in pending queue: average 0.99 s, longest 18.74 s
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Job execution time: average 7.57 s, max 18.24 s
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Job life time (pending + execution): average 8.56 s, max 21.58
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Shader code size: total 9.396 MiB, numShaders 613, average 15.696 KiB, min 2.246 KiB, max 55.505 KiB
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 61.14 s
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.13%
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Jobs were issued in 255 batches (147 local, 108 distributed), average 2.31 jobs/batch (1.41 jobs/local batch. 3.54 jobs/distributed batch)
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Average processing rate: 9.65 jobs/sec
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Total thread time: 1,227.963 s
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Total thread preprocess time: 339.113 s
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Percentage time preprocessing: 27.62%
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Effective parallelization: 20.08 (times faster than compiling all shaders on one thread). Distributed compilation was used.
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display:                         FLumenVisualizeHardwareRayTracingRGS (compiled    8 times, average 14.00 sec, max 18.19 sec, min 12.56 sec)
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display:                  FRayTracedTranslucencyHardwareRayTracingRGS (compiled    4 times, average 12.09 sec, max 12.41 sec, min 11.61 sec)
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display:                                     FLumenInitialSamplingRGS (compiled    1 times, average 11.75 sec, max 11.75 sec, min 11.75 sec)
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display:                          FPathTracingVolumetricCloudMaterial (compiled    1 times, average 7.59 sec, max 7.59 sec, min 7.59 sec)
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display:                      FPathTracingBuildCloudAccelerationMapCS (compiled    1 times, average 6.56 sec, max 6.56 sec, min 6.56 sec)
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 39.64% of total time (compiled   80 times, average 6.08 sec, max 13.17 sec, min 1.64 sec)
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display:                         FLumenVisualizeHardwareRayTracingRGS - 9.12% of total time (compiled    8 times, average 14.00 sec, max 18.19 sec, min 12.56 sec)
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.98% of total time (compiled   45 times, average 1.36 sec, max 6.05 sec, min 0.19 sec)
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 4.20% of total time (compiled   24 times, average 2.15 sec, max 6.09 sec, min 0.50 sec)
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display:                  FRayTracedTranslucencyHardwareRayTracingRGS - 3.94% of total time (compiled    4 times, average 12.09 sec, max 12.41 sec, min 11.61 sec)
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: === Material stats ===
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Materials Translated:    144
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Material Total Translate Time: 0.12 s
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Material Translation Only: 0.03 s (25%)
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.05.27-12.18.45:404][430]LogShaderCompilers: Display: ================================================
