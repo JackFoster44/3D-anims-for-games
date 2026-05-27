@@ -1,0 +1,8 @@
+Breadcrumbs 'Parallel'
+ - Integrate
+ - LumenScreenProbeGather
+ - DiffuseIndirectAndAO
+ - Scene
+ - RenderGraphExecute - /ViewFamilies
+ - SceneRender - ViewFamilies
+ - Frame 49357
